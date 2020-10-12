@@ -48,9 +48,6 @@ def get_apparat_data(app_name='', need_graph=False):
         for apparat in apparats_info:
             print(apparat['tag'])
 
-    if not correct_app:
-        print('wrong app name')
-
 
 def create_plot(app=''):
     if app == '':
